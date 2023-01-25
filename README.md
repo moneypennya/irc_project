@@ -1,2 +1,2 @@
-# irc_project
+# IRC
 This is my IRC project for Web Programming
