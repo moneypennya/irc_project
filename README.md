@@ -1,2 +1,5 @@
-# IRC
-This is my IRC project for Web Programming
+#IRC Project
+This project aims to design a webpage for the club moneypenny lakehouse
+
+##Author(s)
+Aidan Moneypenny
