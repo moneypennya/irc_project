@@ -1,5 +1,5 @@
-<h1>IRC Project</h1>
+#IRC Project
 This project aims to design a webpage for the club moneypenny lakehouse
 
-<h3>Author(s)</h3>
+##Author(s)
 Aidan Moneypenny

@@ -9,3 +9,20 @@ function gifToImg(element){
 function sidemenu(){
     console.log("clicked");
 }
+
+function goHome(){
+    document.getElementById("mainframe").src = "frames/home.html";
+    console.log("ran");
+}
+
+function goContact(){
+    document.getElementById("mainframe").src = "frames/contact.html";
+}
+
+function goRental(){
+    document.getElementById("mainframe").src = "frames/rental.html";
+}
+
+function goAbout(){
+    document.getElementById("mainframe").src = "frames/about.html";
+}

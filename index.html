@@ -13,24 +13,25 @@
       
 
       <h1>Club Moneypenny</h1>
-      <nav>
-      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-top border-bottom" style="padding:10px;">
+     
+      <header id="navbar" class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-top border-bottom" style="padding:10px;">
         <span class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
           <img class="bi me-2" src="assets/images/mlogo.jpg" width="55" height="50" onmouseover="imgToGif(this)" onmouseout="gifToImg(this)" onclick="sidemenu()"></img>
         </span>
   
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.html" class="nav-link px-3">Home</a></li>
-          <li><a href="#contact" class="nav-link px-3">Contact</a></li>
-          <li><a href="#rental" class="nav-link px-3">Boat Rental</a></li>
-          <li><a href="#about" class="nav-link px-3">About</a></li>
+          <li><button class="nav-link px-3" onclick="goHome()">Home</button></li>
+          <li><button class="nav-link px-3" onclick="goContact()">Contact</button></li>
+          <li><button class="nav-link px-3" onclick="goRental()">Boat Rental</button></li>
+          <li><button class="nav-link px-3" onclick="goAbout()">About</button></li>
         </ul>
   
         <div class="col-md-3 text-end">
           <button type="button" id="btn1" class="btn btn-outline-dark me-2">Dark Mode</button>
         </div>
       </header>
-    </nav>
+    
+    <iframe id="mainframe" src="frames/home.html" width="100%" height="1500px"></iframe>
     </body>
     
 </html>
