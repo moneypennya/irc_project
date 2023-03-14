@@ -20,7 +20,7 @@
           <img class="bi me-2" src="assets/images/mlogo.jpg" width="55" height="50" onmouseover="imgToGif(this)" onmouseout="gifToImg(this)" onclick="sidemenu()"></img>
         </span>
         
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" id="buttonbar">
           <li><button id="home" class="nav-link px-3" onclick="goHome(this)">Home</button></li>
           <li><button id="contact" class="nav-link px-3" onclick="goContact(this)">Contact</button></li>
           <li><button id="rental" class="nav-link px-3" onclick="goRental(this)">Boat Rental</button></li>
@@ -28,27 +28,26 @@
         </ul>
         
         <div class="col-md-3 text-end" id="collapse2">
-          <button type="button" id="btn1" class="btn btn-outline-dark me-2">Dark Mode</button>
+          <a href="https://www.vrbo.com/2338955" target="_blank"><button type="button" id="btn1" class="btn btn-outline-dark me-2">BOOK HERE</button></a>
         </div>
       
       </header>
-    
-    <iframe id="mainframe" src="frames/home.html" width="100%"></iframe>
+    <iframe id="mainframe" src="frames/home.html" width="100%" scrolling="no"></iframe>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <footer>
       <div class="footer-content">
-        <h3>Club Moneypenny</h3>
-        <p>We strive to provide the best vacation for any occasion. Please feel free to get in contact with us using any method below or by using the contact form.</p>
+        <h3>CLUB MONEYPENNY</h3>
+        <!--<p>We strive to provide the best vacation for any occasion. Please feel free to get in contact with us using any method below or by using the contact form.</p>-->
         <ul class="socials">
-          <li><a href="#" ><ion-icon name="logo-facebook"></ion-icon></a></li>
-          <li><a href="#"><ion-icon name="logo-youtube" value="Youtube"></ion-icon></a></li>
-          <li><a href="#"><ion-icon name="home-outline" value="VRBO"></ion-icon></img></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100068752436036" ><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="https://www.youtube.com/@clubmoneypenny48"><ion-icon name="logo-youtube" ></ion-icon></a></li>
+          <li><a href="https://www.vrbo.com/2338955"><ion-icon name="home-outline" ></ion-icon></img></a></li>
         </ul>
       </div>
-      <div class="footer-bottom">
-        <p>copyright © <a href="#">CLUB MONEYPENNY</a>  </p>
-          <div class="footer-menu">
+      <div class="footer-bottom" id="fbottom">
+        <p>copyright © CLUB MONEYPENNY</p>
+          <div class="footer-menu" id="fmenu">
             <ul class="f-menu">
               <li><button class="nav-button-bottom" onclick="goHome(getElementById('home'))">Home</button></li>
               <li><button class="nav-button-bottom" onclick="goContact(getElementById('contact'))">Contact</button></li>
@@ -59,6 +58,4 @@
       </div>
     </footer>
     </body>
-    
-   
 </html>
