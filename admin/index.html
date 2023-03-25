@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/main1.css" />
+    
+    <title>Admin Site</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="admin.js"></script>
+  <div id="login-container">
+    <div id="login-form">
+      <h2><img src="../assets/images/mlogo.jpg" width="60" height="55"></h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" style="border:solid black 1px"><br>
+  
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" style="border:solid black 1px"><br>
+        
+        <button type="button" id="login-button" onclick="login(this.form)">Login</button>
+        <br>
+        <label id="wrong">Incorrect Username<br>or Password</label>
+      </form>
+    </div>
+  </div>  
+  <body>
+    
+    <h1>Admin Site</h1>
+    <table >
+      <tbody id="tableadd">
+        <tr>
+          <th>Full Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Address</th>
+          <th>Driver's License</th>
+          <th>Date of Arrival</th>
+          <th>Requested Boats</th>
+          <th>Edit</th>
+          <th>Del</th>
+        </tr>
+      </tbody>
+        
+    </table>
+    
+  </body>
+</html>
